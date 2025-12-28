@@ -16,4 +16,14 @@ This project implements an automated ETL pipeline using Apache Airflow and Amazo
 - Run_data_quality_checks
 
 ## Scheduling
-The DAG is scheduled to run every hour:
+The DAG is scheduled to run every hour:0 * * * *
+
+## Data Quality Checks
+- Ensure songplays table contains records
+- Ensure users table has no NULL user IDs
+
+## Screenshots
+See the `screenshots/` folder for:
+- DAG Graph View
+- Successful data quality checks
+- Redshift table creation
